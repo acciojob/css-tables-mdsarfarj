@@ -1,15 +1,14 @@
 
 
 td,th {
-  border:1px solid rgb(204, 204, 204);
+  border:1px solid #ccc;
   border-radius: 5px;
   padding:8px;
  
 }
+table tr td:nth-child(even){
+background-color:#ffffff;
 
-tr:nth-child(even) {
-background:rgb(255, 255, 255);
-
-tr:nth-child(odd) {
-background:rgb(242, 242, 242);
+table tr td:nth-child(odd){
+background-color:#f2f2f2;
 }
