@@ -1,14 +1,21 @@
 
 
-td,th {
+thead,th {
   border:1px solid #ccc;
   border-radius: 5px;
   padding:8px;
  
 }
-table tr td:nth-child(even){
-background-color:#ffffff;
 
-table tr td:nth-child(odd){
-background-color:#f2f2f2;
+tbody,td {
+  border:1px solid #ccc;
+  border-radius: 5px;
+  padding:8px;
+ 
+}
+tbody tr:nth-child(even){
+	background:#f2f2f2;
+}
+tbody tr:nth-child(odd){
+	background:#ffffff;
 }
