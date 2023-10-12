@@ -1,21 +1,21 @@
 
 
-thead,th {
+th,td {
   border:1px solid rgb(204, 204, 204);
   border-radius: 5px;
   padding:8px;
  
 }
 
-tbody,td {
+/* tbody,td {
   border:1px solid rgb(204, 204, 204);
   border-radius: 5px;
   padding:8px;
  
-}
+} */
 tbody tr:nth-child(even){
-	background:rgb(255, 255, 255);
+	background-color:rgb(255, 255, 255);
 }
 tbody tr:nth-child(odd){
-	background:rgb(242, 242, 242);
+	background-color:rgb(242, 242, 242);
 }
